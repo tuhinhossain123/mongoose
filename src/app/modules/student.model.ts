@@ -3,7 +3,6 @@ import {
   Guardian,
   LocalGuardian,
   Student,
-  Student,
   UserName,
 } from './student/student.interface';
 
@@ -45,4 +44,4 @@ const studentSchema = new Schema<Student>({
   isActive: ['active', 'Blocked'],
 });
 
-const Student= model<Student>("Student", studentSchema)
+const StudentModel = model<Student>('Student', studentSchema);
