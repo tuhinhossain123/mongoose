@@ -15,6 +15,14 @@ const createStudent = async (req: Request, res: Response) => {
   }
 };
 
+const getAllStudents = async (req: Request, res:Response)=>{
+    try{
+
+    }catch(err){
+        console.log(err);
+    }
+}
+
 export const StudentsControllers={
     createStudent
 }
